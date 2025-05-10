@@ -1,5 +1,5 @@
 # VideoStabilizer
-🎞️ Video Stabilizer
+🎞️ Video Stabilizer  
 A desktop-based Python application to stabilize shaky videos using OpenCV. This tool reduces unwanted motion in videos caused by handheld shooting or camera instability, producing smoother and more visually appealing output.
 
 📽️ Demo
@@ -7,16 +7,11 @@ Coming Soon – Sample videos before and after stabilization will be added here.
 
 🧰 Features
 
-✅ Stabilizes shaky video footage using motion estimation and smoothing
-
-✅ GUI built with PyQt5 for ease of use
-
-✅ Input support for most common video formats (e.g., .mp4, .avi)
-
-✅ Real-time progress display
-
-✅ Supports batch processing
-
+✅ Stabilizes shaky video footage using motion estimation and smoothing  
+✅ GUI built with PyQt5 for ease of use  
+✅ Input support for most common video formats (e.g., .mp4, .avi)  
+✅ Real-time progress display  
+✅ Supports batch processing  
 ✅ Frame interpolation for smoother transitions
 
 # 🚀 Getting Started
@@ -82,8 +77,8 @@ matplotlib
 cvxpy
 
 # 📌 Notes
-Uses SIFT for keypoint detection (OpenCV >= 4.4 required).
-Optimization powered by cvxpy with the ECOS solver.
+Uses SIFT for keypoint detection (OpenCV >= 4.4 required).  
+Optimization powered by cvxpy with the ECOS solver.  
 Ideal for videos with minor to moderate shake (e.g. handheld mobile footage).
 
 # 🔧 Troubleshooting
@@ -92,5 +87,6 @@ Command not found: python
 ➤ Use python3 instead.  
 cvxpy solver issues  
 ➤ Ensure ECOS is installed: pip install ecos.  
-👨‍💻 Author  
+
+# 👨‍💻 Author  
 Alok Tiwari
