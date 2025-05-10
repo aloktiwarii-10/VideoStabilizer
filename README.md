@@ -22,6 +22,7 @@ Coming Soon – Sample videos before and after stabilization will be added here.
 🏗️ Project Structure
 
 VideoStabilizer/
+
 ├── sampleVideos/       # Example videos to test
 ├── src/                # Main application source code
 │   ├── preproc.py      # Preprocessing script
@@ -32,6 +33,7 @@ VideoStabilizer/
 └── README.md           # Project documentation
 
 🚀 Getting Started
+
 Prerequisites
 Ensure you have Python 3.7+ installed.
 
@@ -39,22 +41,25 @@ Installation
 
 Clone the repository :-
 git clone https://github.com/aloktiwarii-10/VideoStabilizer.git
+
 cd VideoStabilizer
 
 Install dependencies:-
+
 pip install -r requirements.txt
 
 🧪 Run the Pipeline (Command Line)
-# Step 1: Extract transforms
+ Step 1: Extract transforms
 python3 src/preproc.py sampleVideos/testing.mp4
 
-# Step 2: Smooth the motion trajectory
+ Step 2: Smooth the motion trajectory
 python3 src/stabilize.py 40
 
-# Step 3: Generate the final stabilized video
+ Step 3: Generate the final stabilized video
 python3 src/generate.py sampleVideos/testing.mp4 40
 
 📊 Output
+
 Final stabilized video: video_out.avi
 Intermediate files:
 transforms.pkl: Raw transform data
