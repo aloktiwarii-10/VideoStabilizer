@@ -24,31 +24,38 @@ Coming Soon – Sample videos before and after stabilization will be added here.
 VideoStabilizer/
 
 ├── sampleVideos/       # Example videos to test
+
 ├── src/                # Main application source code
+
 │   ├── preproc.py      # Preprocessing script
+
 │   ├── stabilize.py    # Core stabilization logic
+
 │   └── generate.py     # Output generation script
+
 ├── requirements.txt    # Python dependencies
+
 ├── script.sh           # Shell script to run the app
+
 └── README.md           # Project documentation
 
-🚀 Getting Started
+# 🚀 Getting Started
 
 Prerequisites
 Ensure you have Python 3.7+ installed.
 
-Installation
+# Installation
 
 Clone the repository :-
 git clone https://github.com/aloktiwarii-10/VideoStabilizer.git
 
 cd VideoStabilizer
 
-Install dependencies:-
+# Install dependencies:-
 
 pip install -r requirements.txt
 
-🧪 Run the Pipeline (Command Line)
+# 🧪 Run the Pipeline (Command Line)
  Step 1: Extract transforms
 python3 src/preproc.py sampleVideos/testing.mp4
 
