@@ -48,48 +48,64 @@ python3 src/generate.py sampleVideos/testing.mp4 40
 # 📊 Output
 
 Final stabilized video: video_out.avi
+
 Intermediate files:
+
 transforms.pkl: Raw transform data
+
 trajectory.pkl: Computed camera trajectory
+
 smoothTrajectory.pkl: Optimized/smoothed trajectory
 
 # ⚙️ How It Works
 
 Preprocessing (preproc.py)
-Extracts SIFT features and computes affine transforms frame-by-frame.
-
+ 
+Extracts SIFT features and computes affine transforms frame-by-frame.  
 Saves raw motion data to transforms.pkl.
 
 Stabilization (stabilize.py)
+
 Computes trajectory using cumulative transforms.
+
 Applies convex optimization to smooth camera motion.
+
 Outputs smoothed trajectory in smoothTrajectory.pkl.
 
 Video Generation (generate.py)
+
 Applies corrected transforms to frames.
+
 Generates the stabilized output video as video_out.avi.
 
-✅ Dependencies
+
+# ✅ Dependencies
+
 Python 3.7+
+
 OpenCV
+
 NumPy
+
 matplotlib
+
 cvxpy
 
-📌 Notes
+# 📌 Notes
 Uses SIFT for keypoint detection (OpenCV >= 4.4 required).
 Optimization powered by cvxpy with the ECOS solver.
 Ideal for videos with minor to moderate shake (e.g. handheld mobile footage).
 
-🔧 Troubleshooting
+# 🔧 Troubleshooting
+
 Command not found: python
+
 ➤ Use python3 instead.
 
-Permission error on script.sh
-➤ Run chmod +x script.sh before execution.
-
 cvxpy solver issues
+
 ➤ Ensure ECOS is installed: pip install ecos.
 
 👨‍💻 Author
+
 Alok Tiwari
