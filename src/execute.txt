@@ -1,3 +1,3 @@
-python src/preproc.py sampleVideos/testing.mp4
-python src/stabilize.py 40
-python src/generate.py sampleVideos/testing.mp4 40
+python3 src/preproc.py sampleVideos/testing.mp4
+python3 src/stabilize.py 40
+python3 src/generate.py sampleVideos/testing.mp4 40
