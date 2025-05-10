@@ -6,6 +6,7 @@ A desktop-based Python application to stabilize shaky videos using OpenCV. This 
 Coming Soon – Sample videos before and after stabilization will be added here.
 
 🧰 Features
+
 ✅ Stabilizes shaky video footage using motion estimation and smoothing
 
 ✅ GUI built with PyQt5 for ease of use
@@ -19,6 +20,7 @@ Coming Soon – Sample videos before and after stabilization will be added here.
 ✅ Frame interpolation for smoother transitions
 
 🏗️ Project Structure
+
 VideoStabilizer/
 ├── sampleVideos/       # Example videos to test
 ├── src/                # Main application source code
