@@ -64,31 +64,21 @@ Preprocessing (preproc.py)
 Extracts SIFT features and computes affine transforms frame-by-frame.  
 Saves raw motion data to transforms.pkl.
 
-Stabilization (stabilize.py)
+Stabilization (stabilize.py)  
+Computes trajectory using cumulative transforms.  
+Applies convex optimization to smooth camera motion.  
+Outputs smoothed trajectory in smoothTrajectory.pkl.  
 
-Computes trajectory using cumulative transforms.
-
-Applies convex optimization to smooth camera motion.
-
-Outputs smoothed trajectory in smoothTrajectory.pkl.
-
-Video Generation (generate.py)
-
-Applies corrected transforms to frames.
-
+Video Generation (generate.py)  
+Applies corrected transforms to frames.  
 Generates the stabilized output video as video_out.avi.
-
 
 # ✅ Dependencies
 
-Python 3.7+
-
-OpenCV
-
-NumPy
-
-matplotlib
-
+Python 3.7+  
+OpenCV  
+NumPy  
+matplotlib  
 cvxpy
 
 # 📌 Notes
@@ -98,14 +88,9 @@ Ideal for videos with minor to moderate shake (e.g. handheld mobile footage).
 
 # 🔧 Troubleshooting
 
-Command not found: python
-
-➤ Use python3 instead.
-
-cvxpy solver issues
-
-➤ Ensure ECOS is installed: pip install ecos.
-
-👨‍💻 Author
-
+Command not found: python  
+➤ Use python3 instead.  
+cvxpy solver issues  
+➤ Ensure ECOS is installed: pip install ecos.  
+👨‍💻 Author  
 Alok Tiwari
