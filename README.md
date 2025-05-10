@@ -19,26 +19,6 @@ Coming Soon – Sample videos before and after stabilization will be added here.
 
 ✅ Frame interpolation for smoother transitions
 
-🏗️ Project Structure
-
-VideoStabilizer/
-
-├── sampleVideos/       # Example videos to test
-
-├── src/                # Main application source code
-
-│   ├── preproc.py      # Preprocessing script
-
-│   ├── stabilize.py    # Core stabilization logic
-
-│   └── generate.py     # Output generation script
-
-├── requirements.txt    # Python dependencies
-
-├── script.sh           # Shell script to run the app
-
-└── README.md           # Project documentation
-
 # 🚀 Getting Started
 
 Prerequisites
