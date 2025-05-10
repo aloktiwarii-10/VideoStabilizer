@@ -8,7 +8,6 @@ Coming Soon – Sample videos before and after stabilization will be added here.
 🧰 Features
 
 ✅ Stabilizes shaky video footage using motion estimation and smoothing  
-✅ GUI built with PyQt5 for ease of use  
 ✅ Input support for most common video formats (e.g., .mp4, .avi)  
 ✅ Real-time progress display  
 ✅ Supports batch processing  
