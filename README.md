@@ -45,7 +45,7 @@ python3 src/stabilize.py 40
  Step 3: Generate the final stabilized video
 python3 src/generate.py sampleVideos/testing.mp4 40
 
-📊 Output
+# 📊 Output
 
 Final stabilized video: video_out.avi
 Intermediate files:
@@ -53,10 +53,11 @@ transforms.pkl: Raw transform data
 trajectory.pkl: Computed camera trajectory
 smoothTrajectory.pkl: Optimized/smoothed trajectory
 
-⚙️ How It Works
+# ⚙️ How It Works
 
 Preprocessing (preproc.py)
 Extracts SIFT features and computes affine transforms frame-by-frame.
+
 Saves raw motion data to transforms.pkl.
 
 Stabilization (stabilize.py)
